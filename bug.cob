@@ -1,0 +1,11 @@
+01  WS-AREA-1 PIC 9(5) VALUE ZEROES. 
+01  WS-AREA-2 PIC 9(5) VALUE ZEROES. 
+
+PROCEDURE DIVISION. 
+    ADD 1 TO WS-AREA-1. 
+    IF WS-AREA-1 > 5 THEN 
+        MOVE WS-AREA-1 TO WS-AREA-2 
+    ELSE 
+        DISPLAY "WS-AREA-1 is less than or equal to 5" 
+    END-IF. 
+    STOP RUN.
