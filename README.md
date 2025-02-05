@@ -1,0 +1,1 @@
+This repository contains a simple COBOL program demonstrating a potential data type range error. The program adds 1 to a numeric field repeatedly until it exceeds the declared range. This can result in unexpected values, data corruption, or program crashes. The solution provides an improved version that handles potential range issues.
